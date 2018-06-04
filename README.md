@@ -29,7 +29,8 @@
 ## 拓展功能工程演示
 
 -时间戳（图为UI修改后）
-![main](https://github.com/ShenyDong/NotePad/blob/master/截图文件/修改完颜色界面.png)<br>
+
+![main](https://github.com/ShenyDong/NotePad/blob/master/截图文件/修改后颜色界面.png)<br>
 - 笔记列表显示笔记条目的修改时间
 
 首先，找到列表中item的布局：noteslist_item.xml。<br>
@@ -219,7 +220,7 @@ public class NoteSearch extends ListActivity  implements SearchView.OnQueryTextL
 首页界面：<br>
 ![main](https://github.com/ShenyDong/NotePad/blob/master/截图文件/界面.png)
 
-![main](https://github.com/ShenyDong/NotePad/blob/master/截图文件/修改完颜色界面.png）
+![main](https://github.com/ShenyDong/NotePad/blob/master/截图文件/修改完颜色界面.png)
 
 为了更好的现实笔记颜色，把黑色换成白色，style.xml文件中重写theme，为首页添加背景，重写界面主题和弹框主题。
 ```
@@ -401,6 +402,26 @@ public class NoteColor extends Activity {
 ```
 
 
+- 笔记排序
+
+创建时间排序：<br>
+![createtime](https://github.com/ShenyDong/NotePad/blob/master/截图文件/按创建时间.png)<br>
+修改时间排序：<br>
+![modifytime](https://github.com/ShenyDong/NotePad/blob/master/截图文件/修改后颜色界面.png)<br>
+颜色排序：<br>
+![colorsort](https://github.com/ShenyDong/NotePad/blob/master/截图文件/按颜色.png)<br>
+在菜单文件list_options_menu.xml中添加：<br>
+
+    <item
+        android:id="@+id/menu_sort"
+        android:title="@string/menu_sort"
+        android:icon="@drawable/ic_insert"
+        android:showAsAction="always" >
+
+
+
+
+
 
 - 导出笔记
 
@@ -575,24 +596,3 @@ public class OutputText extends Activity {
 
 
 
-- 笔记排序
-
-创建时间排序：<br>
-![createtime](https://github.com/ShenyDong/NotePad/blob/master/截图文件/按创建时间.png)<br>
-修改时间排序：<br>
-![modifytime](https://github.com/ShenyDong/NotePad/blob/master/截图文件/修改完颜色界面.png)<br>
-颜色排序：<br>
-![colorsort](https://github.com/ShenyDong/NotePad/blob/master/截图文件/按颜色.png)<br>
-在菜单文件list_options_menu.xml中添加：<br>
-
-    <item
-        android:id="@+id/menu_sort"
-        android:title="@string/menu_sort"
-        android:icon="@drawable/ic_insert"
-        android:showAsAction="always" >
-
-
-- 扩展后的目录结构
-
-![dirstructure1](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/dirstructure1.png)<br>
-![dirstructure2](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/dirstructure2.png)<br>
