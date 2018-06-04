@@ -1,0 +1,919 @@
+[
+    {
+        "outputFile": "/Users/apple/Desktop/NotePad/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 96,
+                    "endOffset": 197
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 96,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 202,
+                    "endColumn": 92,
+                    "endOffset": 290
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 202,
+                        "endColumn": 92,
+                        "endOffset": 290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 295,
+                    "endColumn": 104,
+                    "endOffset": 395
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 104,
+                        "endOffset": 395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 400,
+                    "endColumn": 81,
+                    "endOffset": 477
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 400,
+                        "endColumn": 81,
+                        "endOffset": 477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 482,
+                    "endColumn": 97,
+                    "endOffset": 575
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 482,
+                        "endColumn": 97,
+                        "endOffset": 575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 580,
+                    "endColumn": 107,
+                    "endOffset": 683
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 580,
+                        "endColumn": 107,
+                        "endOffset": 683
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 688,
+                    "endColumn": 76,
+                    "endOffset": 760
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 688,
+                        "endColumn": 76,
+                        "endOffset": 760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 765,
+                    "endColumn": 75,
+                    "endOffset": 836
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 765,
+                        "endColumn": 75,
+                        "endOffset": 836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 841,
+                    "endColumn": 77,
+                    "endOffset": 914
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 841,
+                        "endColumn": 77,
+                        "endOffset": 914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 919,
+                    "endColumn": 101,
+                    "endOffset": 1016
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 919,
+                        "endColumn": 101,
+                        "endOffset": 1016
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1021,
+                    "endColumn": 98,
+                    "endOffset": 1115
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1021,
+                        "endColumn": 98,
+                        "endOffset": 1115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1120,
+                    "endColumn": 94,
+                    "endOffset": 1210
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1120,
+                        "endColumn": 94,
+                        "endOffset": 1210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1215,
+                    "endColumn": 102,
+                    "endOffset": 1313
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1215,
+                        "endColumn": 102,
+                        "endOffset": 1313
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1318,
+                    "endColumn": 94,
+                    "endOffset": 1408
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1318,
+                        "endColumn": 94,
+                        "endOffset": 1408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1413,
+                    "endColumn": 95,
+                    "endOffset": 1504
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1413,
+                        "endColumn": 95,
+                        "endOffset": 1504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1509,
+                    "endColumn": 147,
+                    "endOffset": 1652
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1509,
+                        "endColumn": 147,
+                        "endOffset": 1652
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1657,
+                    "endColumn": 96,
+                    "endOffset": 1749
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1657,
+                        "endColumn": 96,
+                        "endOffset": 1749
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1754,
+                    "endColumn": 198,
+                    "endOffset": 1948
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3146,
+                        "endColumn": 202,
+                        "endOffset": 3344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1953,
+                    "endColumn": 122,
+                    "endOffset": 2071
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1235,
+                        "endColumn": 122,
+                        "endOffset": 1353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2076,
+                    "endColumn": 165,
+                    "endOffset": 2237
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1065,
+                        "endColumn": 169,
+                        "endOffset": 1230
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2242,
+                    "endColumn": 121,
+                    "endOffset": 2359
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 943,
+                        "endColumn": 121,
+                        "endOffset": 1060
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2364,
+                    "endColumn": 122,
+                    "endOffset": 2482
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 820,
+                        "endColumn": 122,
+                        "endOffset": 938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2487,
+                    "endColumn": 195,
+                    "endOffset": 2678
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 421,
+                        "endColumn": 199,
+                        "endOffset": 616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2683,
+                    "endColumn": 194,
+                    "endOffset": 2873
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 621,
+                        "endColumn": 198,
+                        "endOffset": 815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2878,
+                    "endColumn": 121,
+                    "endOffset": 2995
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 299,
+                        "endColumn": 121,
+                        "endOffset": 416
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 3000,
+                    "endColumn": 147,
+                    "endOffset": 3143
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2477,
+                        "endColumn": 147,
+                        "endOffset": 2620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 3148,
+                    "endColumn": 113,
+                    "endOffset": 3257
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2363,
+                        "endColumn": 113,
+                        "endOffset": 2472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3262,
+                    "endColumn": 142,
+                    "endOffset": 3400
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2220,
+                        "endColumn": 142,
+                        "endOffset": 2358
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3405,
+                    "endColumn": 115,
+                    "endOffset": 3516
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2104,
+                        "endColumn": 115,
+                        "endOffset": 2215
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3521,
+                    "endColumn": 128,
+                    "endOffset": 3645
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 128,
+                        "endOffset": 294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3650,
+                    "endColumn": 147,
+                    "endOffset": 3793
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 3742,
+                        "endColumn": 147,
+                        "endOffset": 3885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3798,
+                    "endColumn": 121,
+                    "endOffset": 3915
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 3620,
+                        "endColumn": 121,
+                        "endOffset": 3737
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3920,
+                    "endColumn": 150,
+                    "endOffset": 4066
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3469,
+                        "endColumn": 150,
+                        "endOffset": 3615
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 4071,
+                    "endColumn": 119,
+                    "endOffset": 4186
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3349,
+                        "endColumn": 119,
+                        "endOffset": 3464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 4191,
+                    "endColumn": 196,
+                    "endOffset": 4383
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/res/values-ja/common_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 200,
+                        "endOffset": 366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 4388,
+                    "endColumn": 202,
+                    "endOffset": 4586
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2747,
+                        "endColumn": 206,
+                        "endOffset": 2949
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 4591,
+                    "endColumn": 121,
+                    "endOffset": 4708
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2625,
+                        "endColumn": 121,
+                        "endOffset": 2742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 4713,
+                    "endColumn": 102,
+                    "endOffset": 4811
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2954,
+                        "endColumn": 102,
+                        "endOffset": 3052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4816,
+                    "endColumn": 163,
+                    "endOffset": 4975
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1479,
+                        "endColumn": 167,
+                        "endOffset": 1642
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4980,
+                    "endColumn": 120,
+                    "endOffset": 5096
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1358,
+                        "endColumn": 120,
+                        "endOffset": 1474
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 5101,
+                    "endColumn": 178,
+                    "endOffset": 5275
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1921,
+                        "endColumn": 182,
+                        "endOffset": 2099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 5280,
+                    "endColumn": 123,
+                    "endOffset": 5399
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1797,
+                        "endColumn": 123,
+                        "endOffset": 1916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 5404,
+                    "endColumn": 149,
+                    "endOffset": 5549
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1647,
+                        "endColumn": 149,
+                        "endOffset": 1792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 5554,
+                    "endColumn": 88,
+                    "endOffset": 5638
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 3057,
+                        "endColumn": 88,
+                        "endOffset": 3141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 5643,
+                    "endColumn": 88,
+                    "endOffset": 5727
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 3890,
+                        "endColumn": 88,
+                        "endOffset": 3974
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 5732,
+                    "endColumn": 100,
+                    "endOffset": 5828
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-ja/base_strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 3979,
+                        "endColumn": 100,
+                        "endOffset": 4075
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 5833,
+                    "endColumn": 77,
+                    "endOffset": 5906
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1754,
+                        "endColumn": 77,
+                        "endOffset": 1827
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 5911,
+                    "endColumn": 100,
+                    "endOffset": 6007
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/NotePad/app/build/intermediates/exploded-aar/com.android.support/support-compat/27.1.1/res/values-ja/values-ja.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    }
+]

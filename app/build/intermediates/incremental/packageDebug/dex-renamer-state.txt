@@ -1,0 +1,7 @@
+#Mon Jun 04 09:36:15 CST 2018
+base.0=/Users/apple/Desktop/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c8a380654eafffd9b3756b683c2fde61bb694c57
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/apple/Desktop/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b6ad86c844fac548d781cbd55506a6db7f82aa8a/classes.dex
+base.1=/Users/apple/Desktop/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b6ad86c844fac548d781cbd55506a6db7f82aa8a
+file.0=/Users/apple/Desktop/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c8a380654eafffd9b3756b683c2fde61bb694c57/classes.dex

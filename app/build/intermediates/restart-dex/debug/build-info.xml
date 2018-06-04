@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="24"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="349203861125997"
+    token="-231661113490774308"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="349014828924126"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/apple/Desktop/NotePad/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="349171299086276"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/apple/Desktop/NotePad/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="349203861125997"
+        verifier="COLD_SWAP_REQUESTED" />
+
+</instant-run>
