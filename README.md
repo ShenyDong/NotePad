@@ -24,10 +24,7 @@
 - 导出笔记
 - 笔记排序
 
-## 拓展应用源码
-源码： [NotePad](https://github.com/douerza/NotePad/tree/master/NotePad)
-
-## 拓展功能解析
+## 拓展功能工程详解
 
 - NotesList中显示条目增加时间显示
 
@@ -629,7 +626,7 @@ public class NoteColor extends Activity {
         NoteEditor.this.startActivity(intent);
     }
 ```
-在此之前，要对选择导出文件界面进行布局，新建布局output_text.xml，垂直线性布局放置EditText和Button，并创建OutputText的Acitvity，用来选择颜色。：<br>
+新建布局output_text.xml：<br>
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -769,40 +766,12 @@ public class OutputText extends Activity {
     <!-- 向SD卡写入数据权限 -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 ```
-注解在代码注释部分，这里主要说明下flag作用和文件导出位置以及在写文件操作时关于sdcard路径的一些现象。<br>
-因为导出文件是写在onPause()中的，点击保存响应的函数里调用了finish()，而onPause()会在finish()之后调用，但是，onPause()在点击手机的返回键退出当前activity也会调用，也就是说，如果没有经过特殊处理，点击手机返回键也会进行导出文件，这与预想不符。所以特别设置了一个flag用于判断是否是点击导出按钮，是点击按钮，则flag设置为true，可以进行文件导出，否则flag为默认的false，判断语句为假，不能执行到导出文件的操作。<br>
-在拓展的导出文件功能中，我导出文件的路径设定为sdcard下。模拟器中确实导到sdcard目录下，但是手机却是到在内部存储里。我个人猜测下，我手机的存储分为内部存储设备和SD卡(内部存储设备可用的大概为二十几G，SD卡为十几G)，是不是内部存储设备算是被焊死在手机里的SD卡，再联想到以前用的安卓手机，内部根本没用什么存储空间，由SD卡来扩展，如今是机身自带大容量存储空间，所以本应用放在我的手机上读的路径就成了内部存储的路径？<br>
 笔记中有三条笔记：<br>
 ![outputnotelist](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/outputnotelist.png)<br>
-点击第三条“楼五四”：<br>
-![note1](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/note1.png)<br>
-点击隐藏的菜单，选择导出笔记：<br>
- ![outputmenu](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/outputmenu.png)<br>
-文件名默认为标题，也可自己取名，点击确认导出：<br>
-![name1](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/name1.png)<br>
-保存成功，弹出提示：<br>
-![outputok1](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/outputok1.png)<br>
-到文件管理器查看文件：<br>
-![file1](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/file1.png)<br>
-点击刚导出的文件，用阅读器打开查看内容：<br>
-![txt1](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/txt1.png)<br>
-回到NotePad，进入笔记：<br>
-![note2](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/note2.png)<br>
-按刚才的步骤重复一遍：<br>
-![name2](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/name2.png)<br>
-![outputok2](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/outputok2.png)<br>
-![file2](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/file2.png)<br>
-![txt2](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/txt2.png)<br>
-把最后一条笔记也导出：<br>
-![note3](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/note3.png)<br>
-![name3](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/name3.png)<br>
-![outputok3](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/outputok3.png)<br>
-![file3](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/file3.png)<br>
-![txt3](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/txt3.png)<br>
+
 
 - 笔记排序
-
-笔记排序相对来说简单，只要把Cursor的排序参数变换下就可以了。在菜单文件list_options_menu.xml中添加：<br>
+在菜单文件list_options_menu.xml中添加：<br>
 ```
 <item
     android:id="@+id/menu_sort"
@@ -821,70 +790,6 @@ public class OutputText extends Activity {
             android:title="@string/menu_sort3"/>
         </menu>
     </item>
-```
-在NotesList菜单switch下添加case：<br>
-```
-//创建时间排序
-    case R.id.menu_sort1:
-        cursor = managedQuery(
-                getIntent().getData(),            
-                PROJECTION,                      
-                null,                          
-                null,                          
-                NotePad.Notes._ID 
-                );
-        adapter = new MyCursorAdapter(
-                this,
-                R.layout.noteslist_item,
-                cursor,
-                dataColumns,
-                viewIDs
-        );
-        setListAdapter(adapter);
-        return true;
- //修改时间排序
-    case R.id.menu_sort2:
-        cursor = managedQuery(
-                getIntent().getData(),          
-                PROJECTION,                      
-                null,                            
-                null,                       
-                NotePad.Notes.DEFAULT_SORT_ORDER 
-        );
-        adapter = new MyCursorAdapter(
-                this,
-                R.layout.noteslist_item,
-                cursor,
-                dataColumns,
-                viewIDs
-        );
-        setListAdapter(adapter);
-        return true;
-    //颜色排序
-    case R.id.menu_sort3:
-        cursor = managedQuery(
-                getIntent().getData(),
-                PROJECTION,      
-                null,       
-                null,       
-                NotePad.Notes.COLUMN_NAME_BACK_COLOR
-                );
-        adapter = new MyCursorAdapter(
-                this,
-                R.layout.noteslist_item,
-                cursor,
-                dataColumns,
-                viewIDs
-                );
-        setListAdapter(adapter);
-        return true;
-```
-因为排序会多次使用到cursor，adapter，所以将adapter,cursor,dataColumns,viewIDs定义在函数外类内：<br>
-```
-private MyCursorAdapter adapter;
-private Cursor cursor;
-private String[] dataColumns = { NotePad.Notes.COLUMN_NAME_TITLE ,  NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE } ;
-private int[] viewIDs = { android.R.id.text1 , R.id.text1_time };
 ```
 菜单：<br>
 ![sortmenu](https://raw.githubusercontent.com/douerza/picture/master/NotePadPic/sortmenu.png)<br>
